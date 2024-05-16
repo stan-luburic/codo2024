@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorios Medicos - Contacto</title>
+    <link rel="stylesheet" href="static/css/validacion.css">
+</head>
+
+<body>
+    <h1>Formulario de registro</h1>
+    <form id="formulario" onsubmit="return validarDatos()">
+        <label for="nombre">Primer Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        
+        <label for="dni">DNI:</label>
+        <input type="number" id="dni" name="dni" required><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" ><br>
+
+        <div id="campos"></div>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    
+    <script src="static/js/validacion.js"></script>
+</body>
+
+</html>

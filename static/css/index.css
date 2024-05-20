@@ -45,6 +45,17 @@ header {
 
 }
 
+@media (width<= 320px){
+    .nav-links{
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo {
+        font-size: 25px;
+        flex-direction: column-reverse;
+    }
+}
+
 .nav-links li {
     
     margin-left: 15px;

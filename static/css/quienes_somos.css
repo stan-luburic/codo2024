@@ -20,6 +20,11 @@ section {
     border: solid 1px #0056b3;
     padding: 20px;
     margin:  20px auto;
+    transition: background 0.5s linear;
     
 }
 
+section:hover{
+    background:  #4DABFF;
+    color:#F5F5F5
+}

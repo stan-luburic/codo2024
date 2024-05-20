@@ -8,7 +8,7 @@
     
 }
 
-img {
+.card img {
     max-width: 200px;
     border-radius: 10px 0 0 10px;
     border: solid 1px #0056b3;
@@ -24,8 +24,19 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 75%;
-    
+    animation-name: cambiar-color;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    transition: background  0.5s linear;
 }
+
+.card:hover {
+    background: #4DABFF;
+    color: #F5F5F5;
+}
+
+
+    
 
 .card-body {
     display: flex;

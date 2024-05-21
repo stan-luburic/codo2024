@@ -88,7 +88,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:120px auto 200px;
+    margin:150px auto 250px;
     
 }
 
@@ -96,12 +96,6 @@ body {
     margin-bottom: 20px;
 }
 
-@media (width<=320px){
-    .bienvenida {
-        
-    }
-
-}
 
 /**Estilo del Footer **/
 
@@ -150,5 +144,13 @@ footer h3{
         flex-direction: column;
         align-items: center;
 
+    }
+
+    .footer-1{
+        width: 75%;
+    }
+
+    .footer-3{
+        width: 50%;
     }
 }

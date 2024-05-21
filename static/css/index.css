@@ -96,6 +96,13 @@ body {
     margin-bottom: 20px;
 }
 
+@media (width<=320px){
+    .bienvenida {
+        
+    }
+
+}
+
 /**Estilo del Footer **/
 
 footer {
@@ -137,7 +144,7 @@ footer h3{
     margin-bottom: 0;
 }
 
-
+/**footer celular**/
 @media (width <=320px) {
     .footer-superior{
         flex-direction: column;

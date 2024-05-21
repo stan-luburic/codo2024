@@ -45,4 +45,19 @@
 
 }
     
+@media (width<=320px) {
+    .container {
+        width: 80%
+    }
 
+    .card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card img {
+        max-width: 100%;
+        border-radius: 10px 10px 0 0 ;
+    }
+
+}

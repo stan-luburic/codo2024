@@ -45,6 +45,11 @@ header {
 
 }
 
+.nav-links a:hover {
+    color: #007BFF;
+    background-color: #FFFFFF;
+  }
+
 @media (width<= 320px){
     .nav-links{
         flex-direction: column;
@@ -81,20 +86,21 @@ body {
     justify-content: space-between;
 }
 
-/** Estilo de contenico **/
+/** Estilo de contenido **/
 .bienvenida {
     width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:120px auto 200px;
+    margin: auto;
     
 }
 
 .bienvenida h1 {
     margin-bottom: 20px;
 }
+
 
 /**Estilo del Footer **/
 
@@ -137,11 +143,23 @@ footer h3{
     margin-bottom: 0;
 }
 
-
+/**footer celular**/
 @media (width <=320px) {
     .footer-superior{
         flex-direction: column;
         align-items: center;
 
     }
+
+    .footer-1{
+        width: 75%;
+    }
+
+    .footer-3{
+        width: 50%;
+    }
+}
+
+#formulario{
+    margin: 50px auto;
 }

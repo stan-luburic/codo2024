@@ -45,6 +45,11 @@ header {
 
 }
 
+.nav-links a:hover {
+    color: #007BFF;
+    background-color: #FFFFFF;
+  }
+
 @media (width<= 320px){
     .nav-links{
         flex-direction: column;
@@ -81,14 +86,14 @@ body {
     justify-content: space-between;
 }
 
-/** Estilo de contenico **/
+/** Estilo de contenido **/
 .bienvenida {
     width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:150px auto 250px;
+    margin: auto;
     
 }
 
@@ -153,4 +158,8 @@ footer h3{
     .footer-3{
         width: 50%;
     }
+}
+
+#formulario{
+    margin: 50px auto;
 }

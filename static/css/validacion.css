@@ -1,22 +1,4 @@
 /* Estilos para el formulario de contacto */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-}
-
-p {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f9f9f9;
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 8px;
-}
-
-h1 {
-    text-align: center;
-    color: #007bff;
-}
-
 form {
     max-width: 400px;
     margin: 0 auto;

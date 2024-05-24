@@ -49,16 +49,16 @@
     
     <form id="formulario" onsubmit="return validarDatos()">
         <label for="nombre">Primer Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br>
+        <input type="text" id="nombre" name="nombre" required><br>
         
         <label for="dni">DNI:</label>
         <input type="number" id="dni" name="dni" required><br>
 
         <label for="direccion">Dirección:</label>
-        <input type="text" id="direccion" name="direccion" ><br>
+        <input type="text" id="direccion" name="direccion" required><br>
 
         <label for="estudios">Consulta:</label>
-        <select id="estudios" name="estudios">
+        <select id="estudios" name="estudios" required>
             <option value="traumatologia">Traumatologia</option>
             <option value="ginecologia">Ginecologia</option>
             <option value="clinica">Clinica</option>
